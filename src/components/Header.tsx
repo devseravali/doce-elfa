@@ -81,9 +81,9 @@ export function Header() {
   return (
     <Bar>
       <Inner>
-        <a href="/" aria-label="Doce Elfa — página inicial">
+        <a href={import.meta.env.BASE_URL} aria-label="Doce Elfa — página inicial">
           <Logo
-            src="/images/logo-doce-elfa.jpg"
+            src={`${import.meta.env.BASE_URL}images/logo-doce-elfa.jpg`}
             alt="Doce Elfa — Confeitaria Gourmet"
           />
         </a>
