@@ -1,8 +1,10 @@
 {
     "name": "doce-elfa",
-    "private": true,
     "version": "1.0.0",
+    "private": true,
+    "description": "`npm install && npm run dev` · `npm run build` · `npm run lint` Edite links/contatos em `src/config/site.ts`; produtos e fotos em `src/data/products.ts`. ## Pendências (proprietária) Logotipo e paleta oficiais · fotos · cardápio (categorias/produtos) · PDF de doces finos · link iFood da Lapa · texto de história · endereço/horários · og:image e domínio.",
     "type": "module",
+    "main": "index.js",
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
