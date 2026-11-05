@@ -30,6 +30,7 @@ const Logo = styled.img`
   display: block;
   width: 88px;
   height: 88px;
+  border-radius: 50%;
   flex: 0 0 auto;
   object-fit: contain;
   mix-blend-mode: multiply;
